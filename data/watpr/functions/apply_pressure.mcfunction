@@ -2,8 +2,16 @@
 
 scoreboard players operation #temp watpr.depth = @s watpr.depth
 # initiate vars 
-execute store result score #armor watpr.depth run attribute @s generic.armor get 1.5
-execute store result score #toughness watpr.depth run attribute @s generic.armor_toughness get 2.5
+execute store result score #armor watpr.depth run attribute @s generic.armor get
+execute store result score #toughness watpr.depth run attribute @s generic.armor_toughness get
+
+# apply multipliers
+scoreboard players operation #armor watpr.depth *= $armor_mult watpr.depth
+scoreboard players operation #armor watpr.depth *= $total_mult watpr.depth
+scoreboard players operation #armor watpr.depth /= #10000 watpr.depth
+scoreboard players operation #toughness watpr.depth *= $toughness_mult watpr.depth
+scoreboard players operation #toughness watpr.depth *= $total_mult watpr.depth
+scoreboard players operation #toughness watpr.depth /= #10000 watpr.depth
 
 # apply offsets
 scoreboard players operation #temp watpr.depth -= #armor watpr.depth
