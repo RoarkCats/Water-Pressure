@@ -17,5 +17,5 @@ execute if score #temp watpr.depth matches 11..15 run damage @s 3 watpr:pressure
 execute if score #temp watpr.depth matches 16..25 run damage @s 4 watpr:pressure
 execute if score #temp watpr.depth matches 26.. run damage @s 5 watpr:pressure
 
-execute if score #temp watpr.depth matches 8.. run effect give @s nausea 4 0 true
+execute if score #temp watpr.depth matches 6.. run effect give @s nausea 4 0 true
 execute if score #temp watpr.depth matches 16.. run effect give @s blindness 2 0 true
