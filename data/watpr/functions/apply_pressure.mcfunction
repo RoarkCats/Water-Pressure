@@ -19,11 +19,8 @@ scoreboard players operation #temp watpr.depth -= #toughness watpr.depth
 scoreboard players operation #temp watpr.depth -= $offset watpr.depth
 
 # apply damage/effects
-execute if score #temp watpr.depth matches 1..5 run damage @s 1 watpr:pressure
-execute if score #temp watpr.depth matches 6..10 run damage @s 2 watpr:pressure
-execute if score #temp watpr.depth matches 11..15 run damage @s 3 watpr:pressure
-execute if score #temp watpr.depth matches 16..25 run damage @s 4 watpr:pressure
-execute if score #temp watpr.depth matches 26.. run damage @s 5 watpr:pressure
+execute if score $damage_diff_scaling watpr.depth matches 0 run function watpr:damage
+execute if score $damage_diff_scaling watpr.depth matches 1 run function watpr:damage_diff
 
 execute if score #temp watpr.depth matches 1.. run tp @s @s
 execute if score #temp watpr.depth matches 6.. run effect give @s nausea 7 0 true
