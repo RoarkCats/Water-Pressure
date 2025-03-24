@@ -31,3 +31,9 @@ Several config options are made available to the player through scoreboard comma
 | $toughness_mult       | Armor Toughness offset multiplier percentage           | 250     | >= 0         |
 | $total_mult           | Total multiplier percentage for armor/toughness        | 115     | >= 0         |
 | $damage_diff_scaling  | Toggles damage difficulty scaling <br/> (If enabled, disables damage in peaceful) | 1       | 0 ~ 1        |
+
+
+## License
+\- This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+<br/>
+\- This project can be packaged into any server or modpack you'd like
