@@ -1,4 +1,4 @@
-# Water Pressure  ![pack.png](https://github.com/RoarkCats/Water-Pressure/blob/main/pack.png?raw=true)
+# Water Pressure  ![pack.png](https://github.com/RoarkCats/Water-Pressure/blob/main/pack.png?raw=true)  [![Modrinth Project](https://img.shields.io/modrinth/dt/AEnFuzna?logo=modrinth&label=Modrinth&style=flat&labelColor=2D2D2D&color=555555)](https://modrinth.com/datapack/water-pressure)
 A simple but fleshed out datapack that adds water pressure,
 damaging players the deeper they dive without sufficient protection from armor!
 Dynamically detects water depth in any pool based on the number of water blocks above the player.
