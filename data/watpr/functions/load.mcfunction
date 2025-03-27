@@ -1,4 +1,4 @@
-tellraw @a {"text":"Thank you for downloading Water Pressure 1.0.0 by RoarkCats!","color":"gold"}
+tellraw @a {"text":"Thank you for downloading Water Pressure 1.0.1 by RoarkCats!","color":"gold"}
 
 scoreboard objectives add watpr dummy
 scoreboard objectives add watpr.depth dummy
