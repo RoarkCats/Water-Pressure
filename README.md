@@ -32,7 +32,7 @@ Several config options are made available to the player through scoreboard comma
 | $total_mult           | Total multiplier percentage for armor/toughness        | 115     | >= 0         |
 | $damage_diff_scaling  | Toggles damage difficulty scaling <br/> (If enabled, disables damage in peaceful) | 1       | 0 ~ 1        |
 
-You can also add to the `vehicle_pressure_blacklist` by modifying the file in `data/watpr/tags/entity_types/`
+You can also add to the `vehicle_pressure_blacklist` by modifying the [file](data/watpr/tags/entity_types/vehicle_pressure_blacklist.json) in `data/watpr/tags/entity_types/`
 
 ## License
 \- This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
